@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+textarea{
+    min-height: 250px;
+    width: 300px;
+}
+button{
+    padding: 0.75rem 1.2rem;
+    background: #000;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 3ms all ease-in-out;
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: #000;
+}
